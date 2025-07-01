@@ -1,0 +1,182 @@
+{
+	"header": {
+		"title": "JPE",
+		"language": "Ngôn ngữ"
+	},
+	"common": {
+		"welcome": "Xin chào!",
+		"loginRequired": "Vui lòng đăng nhập để tiếp tục"
+	},
+	"user": {
+		"myCourses": "Khóa học của tôi",
+		"profile": "Hồ sơ",
+		"logout": "Đăng xuất",
+		"login": "Đăng nhập",
+		"register": "Đăng ký",
+		"welcome": "Xin chào"
+	},
+	"banner": {
+		"subheading1": "Học Tiếng Nhật Online cùng JPE",
+		"mainHeading": "ĐỖ JLPT SAU 3 THÁNG",
+		"subheading2": "Kết hợp cải thiện Kaiwa trong cuộc sống, công việc",
+		"button": "Tìm hiểu thêm"
+	},
+	"courses": {
+		"onlineCourses": "Các khóa học online",
+		"description": "Khám phá các khóa học tiếng Nhật chất lượng cao, được thiết kế bởi các giảng viên hàng đầu",
+		"hours": "giờ",
+		"minutes": "phút",
+		"lessons": "Bài học",
+		"viewDetails": "Xem chi tiết",
+		"loadMore": "Xem thêm",
+		"loading": "Đang tải...",
+		"noCourses": "Chưa có khóa học nào",
+		"noCoursesMessage": "Hiện tại chưa có khóa học nào. Vui lòng quay lại sau.",
+		"pageTitle": "Tất cả khóa học",
+		"overview": "Tổng quan",
+		"content": "Nội dung khóa học",
+		"includes": "Bao gồm",
+		"instructor": "Giảng viên",
+		"duration": "Thời lượng",
+		"lessonsCount": "Bài học",
+		"level": "Trình độ",
+		"access": "Quyền truy cập",
+		"fullLifetimeAccess": "Truy cập trọn đời",
+		"courseContent": "Nội dung khóa học",
+		"resources": "tài liệu",
+		"exercises": "bài tập",
+		"locked": "Đã khóa",
+		"lastUpdated": "Cập nhật gần nhất",
+		"enrollNow": "Đăng ký ngay",
+		"continueToLearning": "Tiếp tục học",
+		"processing": "Đang xử lý...",
+		"enrollSuccess": "Đăng ký thành công",
+		"enrollSuccessDescription": "Bạn đã đăng ký khóa học thành công!",
+		"enrollError": "Đăng ký thất bại",
+		"enrollErrorDescription": "Có lỗi xảy ra khi đăng ký khóa học. Vui lòng thử lại.",
+		"viewAllCourses": "Xem tất cả khóa học"
+	},
+	"combos": {
+		"title": "Các gói combo",
+		"description": "Tiết kiệm chi phí với các gói combo khóa học tiếng Nhật được thiết kế đặc biệt",
+		"comboLabel": "Combo",
+		"includedCourses": "Khóa học bao gồm",
+		"moreCourses": "khóa học khác",
+		"savingsLabel": "Tiết kiệm",
+		"viewDetails": "Xem chi tiết",
+		"noCombos": "Chưa có gói combo nào",
+		"noCombosMessage": "Hiện tại chưa có gói combo nào. Vui lòng quay lại sau.",
+		"enrollNow": "Đăng ký ngay",
+		"continueToLearning": "Tiếp tục học",
+		"processing": "Đang xử lý...",
+		"enrollSuccess": "Đăng ký thành công",
+		"enrollSuccessDescription": "Bạn đã đăng ký gói combo thành công!",
+		"enrollError": "Đăng ký thất bại",
+		"enrollErrorDescription": "Có lỗi xảy ra khi đăng ký gói combo. Vui lòng thử lại."
+	},
+	"payment": {
+		"processing": "Đang xử lý thanh toán",
+		"pleaseWait": "Vui lòng đợi trong khi chúng tôi xử lý thanh toán của bạn...",
+		"successful": "Thanh toán thành công!",
+		"failed": "Thanh toán thất bại",
+		"orderInfo": "Thông tin đơn hàng:",
+		"amountPaid": "Số tiền đã thanh toán:",
+		"goToLearning": "Đi đến Khóa học của tôi",
+		"exploreCourses": "Khám phá thêm khóa học",
+		"returnToCourses": "Quay lại danh sách khóa học",
+		"contactSupport": "Liên hệ hỗ trợ",
+		"continueBrowsing": "Tiếp tục xem"
+	},
+	"learning": {
+		"courseOverview": "Tổng quan khóa học",
+		"lessonDescription": "Mô tả bài học",
+		"lesson": "Bài học",
+		"resources": "Tài liệu",
+		"exercises": "Bài tập",
+		"videoNotAvailable": "Video không khả dụng",
+		"studyMaterials": "Tài liệu học tập",
+		"download": "Tải xuống",
+		"exercise": "Bài tập",
+		"question": "Câu hỏi",
+		"hint": "Gợi ý",
+		"correct": "Chính xác!",
+		"incorrect": "Không chính xác!",
+		"previousQuestion": "Câu trước",
+		"nextQuestion": "Câu tiếp theo",
+		"completed": "Đã hoàn thành",
+		"updating": "Đang cập nhật...",
+		"autoMarkComplete": "Sẽ tự động đánh dấu hoàn thành",
+		"nextLesson": "Bài tiếp theo",
+		"noLessonSelected": "Chưa có bài học nào được chọn",
+		"selectLessonPrompt": "Vui lòng chọn một bài học từ danh sách để bắt đầu.",
+		"backToCourses": "Quay lại khóa học",
+		"level": "Trình độ",
+		"minutes": "phút",
+		"ofLessons": "bài học",
+		"error": "Đã xảy ra lỗi",
+		"errorMessage": "Không thể tải thông tin khóa học. Vui lòng thử lại sau.",
+		"returnToCourseList": "Quay lại danh sách khóa học"
+	},
+	"whyChooseUs": {
+		"title": "Tại sao nên chọn JPE cho việc học tiếng Nhật?",
+		"subtitle": "Khám phá những lợi thế của JPE cho hành trình học tiếng Nhật của bạn",
+		"certifiedTeachers": {
+			"title": "Giáo viên chứng nhận",
+			"description": "Học từ các giảng viên được chứng nhận JLPT với nhiều năm kinh nghiệm giảng dạy"
+		},
+		"quickProgress": {
+			"title": "Tiến bộ nhanh chóng",
+			"description": "Phương pháp đã được chứng minh giúp học viên đỗ JLPT chỉ trong 3 tháng"
+		},
+		"flexibleSchedule": {
+			"title": "Lịch học linh hoạt",
+			"description": "Học bất cứ khi nào, bất cứ nơi đâu với nền tảng trực tuyến theo yêu cầu của chúng tôi"
+		},
+		"personalizedLearning": {
+			"title": "Học tập cá nhân hóa",
+			"description": "Lộ trình học tập được điều chỉnh dựa trên trình độ và mục tiêu của bạn"
+		},
+		"practicalApproach": {
+			"title": "Phương pháp thực tế",
+			"description": "Tập trung vào kỹ năng giao tiếp mà bạn có thể áp dụng trong các tình huống thực tế"
+		},
+		"communitySupport": {
+			"title": "Hỗ trợ cộng đồng",
+			"description": "Tham gia cộng đồng hỗ trợ của những người học tiếng Nhật"
+		},
+		"mainBenefit": "Đỗ JLPT trong 3 tháng",
+		"mainDescription": "Chương trình giảng dạy chuyên biệt của chúng tôi được thiết kế đặc biệt để giúp bạn đạt được thành công trong chứng chỉ JLPT đồng thời phát triển kỹ năng hội thoại tiếng Nhật thực tế cho cuộc sống hàng ngày và công việc.",
+		"benefit1": "Giáo trình được thiết kế riêng cho từng cấp độ JLPT",
+		"benefit2": "Luyện tập thực tế với người bản xứ",
+		"benefit3": "Hệ thống đánh giá và theo dõi tiến độ chi tiết"
+	},
+	"myCourses": {
+		"title": "Khóa học của tôi",
+		"subtitle": "Theo dõi tiến độ và tiếp tục việc học",
+		"totalCourses": "Tổng số khóa học",
+		"inProgress": "Đang học",
+		"completed": "Đã hoàn thành",
+		"searchPlaceholder": "Tìm kiếm khóa học...",
+		"clearSearch": "Xóa tìm kiếm",
+		"allCourses": "Tất cả khóa học",
+		"noCoursesTitle": "Bạn chưa có khóa học nào",
+		"noCoursesDescription": "Bạn chưa đăng ký khóa học nào. Khám phá danh mục để bắt đầu hành trình học tập của bạn.",
+		"exploreCourses": "Khám phá khóa học",
+		"noResults": "Không tìm thấy khóa học",
+		"noSearchResults": "Không tìm thấy khóa học với từ khóa \"{0}\"",
+		"noFilterResults": "Không có khóa học nào phù hợp với bộ lọc hiện tại",
+		"courseDetails": "Chi tiết khóa học",
+		"startLearning": "Bắt đầu học",
+		"continueLearning": "Tiếp tục học",
+		"reviewCourse": "Ôn tập khóa học",
+		"progress": "Tiến độ",
+		"lessonsCompleted": "bài học đã hoàn thành",
+		"enrolled": "Đã đăng ký",
+		"tutor": "Giảng viên",
+		"viewCertificate": "Xem chứng chỉ",
+		"completedTag": "Đã hoàn thành",
+		"errorTitle": "Lỗi tải khóa học",
+		"errorDescription": "Đã xảy ra lỗi khi tải khóa học của bạn. Vui lòng thử lại.",
+		"retry": "Thử lại"
+	}
+}

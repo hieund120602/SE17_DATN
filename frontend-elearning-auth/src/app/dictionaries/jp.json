@@ -1,0 +1,182 @@
+{
+	"header": {
+		"title": "JPE",
+		"language": "言語"
+	},
+	"common": {
+		"welcome": "こんにちは!",
+		"loginRequired": "続行するにはログインしてください"
+	},
+	"user": {
+		"myCourses": "マイコース",
+		"profile": "プロフィール",
+		"logout": "ログアウト",
+		"login": "ログイン",
+		"register": "登録",
+		"welcome": "ようこそ"
+	},
+	"banner": {
+		"subheading1": "JPEでオンライン日本語学習",
+		"mainHeading": "3ヶ月でJLPT合格",
+		"subheading2": "生活や仕事で会話力を向上させる",
+		"button": "詳細を見る"
+	},
+	"courses": {
+		"onlineCourses": "オンラインコース",
+		"description": "トップ講師によって設計された質の高い日本語コースを探索する",
+		"hours": "時間",
+		"minutes": "分",
+		"lessons": "レッスン",
+		"viewDetails": "詳細を見る",
+		"loadMore": "もっと見る",
+		"loading": "読み込み中...",
+		"noCourses": "コースがありません",
+		"noCoursesMessage": "現在、利用可能なコースはありません。後でもう一度確認してください。",
+		"pageTitle": "すべてのコース",
+		"overview": "概要",
+		"content": "コース内容",
+		"includes": "含まれるもの",
+		"instructor": "講師",
+		"duration": "所要時間",
+		"lessonsCount": "レッスン",
+		"level": "レベル",
+		"access": "アクセス",
+		"fullLifetimeAccess": "生涯アクセス",
+		"courseContent": "コース内容",
+		"resources": "リソース",
+		"exercises": "演習",
+		"locked": "ロック済み",
+		"lastUpdated": "最終更新",
+		"enrollNow": "今すぐ登録",
+		"continueToLearning": "学習を続ける",
+		"processing": "処理中...",
+		"enrollSuccess": "登録成功",
+		"enrollSuccessDescription": "コースに正常に登録されました！",
+		"enrollError": "登録失敗",
+		"enrollErrorDescription": "コースの登録中にエラーが発生しました。もう一度お試しください。",
+		"viewAllCourses": "すべてのコースを見る"
+	},
+	"combos": {
+		"title": "コースパッケージ",
+		"description": "特別に設計された日本語コースパッケージでお得に学習",
+		"comboLabel": "セット",
+		"includedCourses": "含まれるコース",
+		"moreCourses": "件のコース",
+		"savingsLabel": "割引",
+		"viewDetails": "詳細を見る",
+		"noCombos": "パッケージがありません",
+		"noCombosMessage": "現在、利用可能なコースパッケージはありません。後でもう一度確認してください。",
+		"enrollNow": "今すぐ登録",
+		"continueToLearning": "学習を続ける",
+		"processing": "処理中...",
+		"enrollSuccess": "登録成功",
+		"enrollSuccessDescription": "コースパッケージに正常に登録されました！",
+		"enrollError": "登録失敗",
+		"enrollErrorDescription": "コースパッケージの登録中にエラーが発生しました。もう一度お試しください。"
+	},
+	"payment": {
+		"processing": "決済処理中",
+		"pleaseWait": "お支払いを処理している間、しばらくお待ちください...",
+		"successful": "支払い完了！",
+		"failed": "支払い失敗",
+		"orderInfo": "注文情報：",
+		"amountPaid": "支払金額：",
+		"goToLearning": "マイラーニングへ",
+		"exploreCourses": "他のコースを探す",
+		"returnToCourses": "コース一覧に戻る",
+		"contactSupport": "サポートに連絡する",
+		"continueBrowsing": "続きを読む"
+	},
+	"learning": {
+		"courseOverview": "コース概要",
+		"lessonDescription": "レッスンの説明",
+		"lesson": "レッスン",
+		"resources": "リソース",
+		"exercises": "演習",
+		"videoNotAvailable": "動画は利用できません",
+		"studyMaterials": "学習資料",
+		"download": "ダウンロード",
+		"exercise": "練習問題",
+		"question": "問題",
+		"hint": "ヒント",
+		"correct": "正解です！",
+		"incorrect": "不正解です！",
+		"previousQuestion": "前の問題",
+		"nextQuestion": "次の問題",
+		"completed": "完了済み",
+		"updating": "更新中...",
+		"autoMarkComplete": "自動的に完了マークされます",
+		"nextLesson": "次のレッスン",
+		"noLessonSelected": "レッスンが選択されていません",
+		"selectLessonPrompt": "開始するにはリストからレッスンを選択してください。",
+		"backToCourses": "コースに戻る",
+		"level": "レベル",
+		"minutes": "分",
+		"ofLessons": "レッスン",
+		"error": "エラーが発生しました",
+		"errorMessage": "コース情報を読み込めませんでした。後でもう一度お試しください。",
+		"returnToCourseList": "コース一覧に戻る"
+	},
+	"whyChooseUs": {
+		"title": "日本語学習にJPEを選ぶ理由",
+		"subtitle": "日本語学習の旅におけるJPEの優位性を発見する",
+		"certifiedTeachers": {
+			"title": "認定教師",
+			"description": "長年の教育経験を持つJLPT認定講師から学ぶ"
+		},
+		"quickProgress": {
+			"title": "迅速な進歩",
+			"description": "実証済みの方法論で、わずか3ヶ月でJLPTに合格"
+		},
+		"flexibleSchedule": {
+			"title": "柔軟なスケジュール",
+			"description": "オンデマンドのオンラインプラットフォームでいつでもどこでも学習"
+		},
+		"personalizedLearning": {
+			"title": "パーソナライズされた学習",
+			"description": "あなたの習熟度と目標に基づいてカスタマイズされた学習パス"
+		},
+		"practicalApproach": {
+			"title": "実践的なアプローチ",
+			"description": "実生活のシチュエーションで応用できる会話スキルに焦点"
+		},
+		"communitySupport": {
+			"title": "コミュニティサポート",
+			"description": "日本語学習者の支援コミュニティに参加"
+		},
+		"mainBenefit": "3ヶ月でJLPTに合格",
+		"mainDescription": "私たちの専門カリキュラムは、JLPT認定で成功を収めながら、日常生活や仕事のための実践的な日本語会話スキルを開発するために特別に設計されています。",
+		"benefit1": "各JLPTレベル向けにカスタマイズされたカリキュラム",
+		"benefit2": "ネイティブスピーカーとの実践練習",
+		"benefit3": "詳細な評価と進捗追跡システム"
+	},
+	"myCourses": {
+		"title": "マイコース",
+		"subtitle": "進捗状況を追跡して学習を続ける",
+		"totalCourses": "コース総数",
+		"inProgress": "進行中",
+		"completed": "完了済",
+		"searchPlaceholder": "コースを検索...",
+		"clearSearch": "検索をクリア",
+		"allCourses": "すべてのコース",
+		"noCoursesTitle": "コースがまだありません",
+		"noCoursesDescription": "まだどのコースにも登録していません。カタログを探索して学習の旅を始めましょう。",
+		"exploreCourses": "コースを探索する",
+		"noResults": "コースが見つかりません",
+		"noSearchResults": "\"{0}\"に一致するコースが見つかりません",
+		"noFilterResults": "現在のフィルターに一致するコースはありません",
+		"courseDetails": "コースの詳細",
+		"startLearning": "学習を開始",
+		"continueLearning": "学習を続ける",
+		"reviewCourse": "コースを復習する",
+		"progress": "進捗状況",
+		"lessonsCompleted": "レッスン完了",
+		"enrolled": "登録日",
+		"tutor": "講師",
+		"viewCertificate": "証明書を見る",
+		"completedTag": "完了",
+		"errorTitle": "コースの読み込みエラー",
+		"errorDescription": "コースの読み込み中にエラーが発生しました。もう一度お試しください。",
+		"retry": "再試行"
+	}
+}

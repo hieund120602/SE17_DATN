@@ -1,0 +1,8 @@
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+	images: {
+		domains: ['res.cloudinary.com', 'example.com', 'thaka.bing.com'],
+	},
+};
+
+export default nextConfig;
