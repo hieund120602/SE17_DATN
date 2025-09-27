@@ -521,6 +521,18 @@ const ComboAdmin = () => {
 															</span>
 															<span>{formatDate(selectedCombo.updatedAt)}</span>
 														</div>
+														<div className='flex justify-between items-center'>
+															<span className='text-sm text-gray-500'>Hiệu lực đến:</span>
+															<span className='font-medium'>
+																{formatDate(selectedCombo.validUntil)}
+															</span>
+														</div>
+														<div className='flex justify-between items-center'>
+															<span className='text-sm text-gray-500'>
+																Thời gian truy cập:
+															</span>
+															<span>{selectedCombo.accessPeriodMonths} tháng</span>
+														</div>
 													</div>
 												</CardContent>
 											</Card>
