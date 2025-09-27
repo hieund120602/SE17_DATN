@@ -1,0 +1,17 @@
+
+> elearning-frontend@0.1.0 dev
+> next dev
+
+ ⚠ Port 3000 is in use, trying 3001 instead.
+  ▲ Next.js 14.2.12
+  - Local:        http://localhost:3001
+  - Environments: .env
+
+ ✓ Starting...
+[Error: EPERM: operation not permitted, open 'T:\Freelance\elearning-backend\su25\elearning-frontend\.next\trace'] {
+  errno: -4048,
+  code: 'EPERM',
+  syscall: 'open',
+  path: 'T:\\Freelance\\elearning-backend\\su25\\elearning-frontend\\.next\\trace'
+}
+ ✓ Ready in 3.3s
