@@ -1,0 +1,64 @@
+### Test QR Transfer Payment APIs
+
+### 1. Create QR Transfer Payment
+POST http://localhost:8080/payments/qr-transfer
+Authorization: Bearer {{student_token}}
+Content-Type: application/json
+
+{
+  "amount": 500000,
+  "orderInfo": "Thanh toan khoa hoc N5",
+  "successRedirectUrl": "http://localhost:3000/payment/success",
+  "cancelRedirectUrl": "http://localhost:3000/payment/cancel",
+  "bankAccountInfo": "Ngân hàng: Vietcombank\nSố tài khoản: 1234567890\nChủ tài khoản: CÔNG TY ABC"
+}
+
+### 2. Get QR Transfer Payment Details
+GET http://localhost:8080/payments/qr-transfer/1
+Authorization: Bearer {{student_token}}
+
+### 3. Get Payment Details
+GET http://localhost:8080/payments/1
+Authorization: Bearer {{student_token}}
+
+### 4. Get My Payment History
+GET http://localhost:8080/payments/my-history?page=0&size=10
+Authorization: Bearer {{student_token}}
+
+### 5. Admin: Get Payments Waiting Confirmation
+GET http://localhost:8080/admin/payments/waiting-confirmation?page=0&size=10
+Authorization: Bearer {{admin_token}}
+
+### 6. Admin: Get Pending Payments
+GET http://localhost:8080/admin/payments/pending?page=0&size=10
+Authorization: Bearer {{admin_token}}
+
+### 7. Admin: Process Payment - Approve
+POST http://localhost:8080/admin/payments/process
+Authorization: Bearer {{admin_token}}
+Content-Type: application/json
+
+{
+  "paymentId": 1,
+  "action": "approve",
+  "adminNotes": "Đã xác nhận chuyển khoản thành công"
+}
+
+### 8. Admin: Process Payment - Reject
+POST http://localhost:8080/admin/payments/process
+Authorization: Bearer {{admin_token}}
+Content-Type: application/json
+
+{
+  "paymentId": 1,
+  "action": "reject",
+  "adminNotes": "Không tìm thấy giao dịch chuyển khoản"
+}
+
+### 9. Check Payment Status
+GET http://localhost:8080/payments/status/QR_1234567890abcdef
+Authorization: Bearer {{student_token}}
+
+### Variables for testing:
+# @student_token = your_student_jwt_token_here
+# @admin_token = your_admin_jwt_token_here 

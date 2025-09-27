@@ -4,69 +4,261 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e759bb8-6855-4157-a68b-73c4daa05b91" name="Changes" comment="">
-<<<<<<< HEAD
+    <list default="true" id="7d02da9b-8f6b-4211-b1ee-0bc69cf5f7ae" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/ProjectDATN.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-=======
-      <change afterPath="$PROJECT_DIR$/.idea/ProjectDATN.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/controller/AdminEnrollmentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/controller/AdminUserController.java" afterDir="false" />
->>>>>>> 1ff7174509ba604d5cfbeed571c87ec37958513c
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/server.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/JapaneseLearningPlatformApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/config/CourseDataInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/config/DatabaseInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/config/MailConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/config/SpeechConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/controller/AdminEnrollmentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/controller/AdminUserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/controller/DiscussionController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/controller/DocumentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/controller/EnrollmentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/controller/FileController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/controller/LearningController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/controller/LessonController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/controller/LevelController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/controller/PaymentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/controller/PaymentHistoryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/controller/PublicCourseController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/controller/SpeechExerciseController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/controller/SpeechPracticeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/controller/TutorController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/controller/TutorCourseController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/controller/UserManagementController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/controller/VoucherController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/controller/WebSpeechApiController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/controller/WebSpeechController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/dto/request/CourseApprovalRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/dto/request/CourseRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/dto/request/ExerciseGenerationRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/dto/request/ExerciseRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/dto/request/LessonRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/dto/request/LevelRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/dto/request/ManualEnrollmentRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/dto/request/PaymentRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/dto/request/SpeechExerciseRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/dto/request/SpeechExerciseSubmissionRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/dto/request/SpeechPracticeRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/dto/request/TutorProfileUpdateRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/dto/request/VoucherRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/dto/request/WebSpeechExerciseRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/dto/request/WebSpeechSubmissionRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/dto/response/CourseBriefResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/dto/response/CourseDetailResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/dto/response/CourseForLearningResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/dto/response/CourseResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/dto/response/EnrollmentResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/dto/response/LessonForLearningResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/dto/response/LessonPreviewResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/dto/response/LessonResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/dto/response/LevelResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/dto/response/PaymentHistoryResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/dto/response/PaymentResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/dto/response/SpeechExerciseResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/dto/response/SpeechExerciseResultResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/dto/response/SpeechExerciseStatsResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/dto/response/SpeechPracticeResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/dto/response/TutorBriefResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/dto/response/VoucherResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/dto/response/WebSpeechConfigResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/entity/Comment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/entity/Course.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/entity/CourseCombo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/entity/Discussion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/entity/Education.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/entity/Enrollment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/entity/Exercise.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/entity/Experience.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/entity/Lesson.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/entity/LessonCompletion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/entity/Level.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/entity/Module.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/entity/Option.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/entity/PasswordResetToken.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/entity/Payment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/entity/Question.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/entity/Resource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/entity/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/entity/SpeechExerciseResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/entity/SpeechPractice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/entity/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/entity/Tutor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/entity/Voucher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/entity/VoucherUsage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/mapper/CourseMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/mapper/LevelMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/mapper/UserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/repository/CourseRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/repository/EnrollmentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/repository/ExerciseRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/repository/LessonCompletionRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/repository/LessonRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/repository/LevelRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/repository/PasswordResetTokenRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/repository/PaymentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/repository/SpeechExerciseResultRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/repository/SpeechPracticeRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/repository/TutorRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/repository/VoucherRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/repository/VoucherUsageRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/security/WebSecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/security/jwt/AuthEntryPointJwt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/security/jwt/AuthTokenFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/security/jwt/JwtUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/security/services/UserDetailsImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/security/services/UserDetailsServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/service/AdminEnrollmentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/service/AdminUserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/service/CloudinaryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/service/CourseService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/service/EmailService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/service/EnrollmentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/service/LearningService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/service/LessonCompletionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/service/LessonService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/service/LevelService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/service/PaymentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/service/SpeechExerciseService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/service/SpeechPracticeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/service/SpeechRecognitionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/service/TutorService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/service/VnPayService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/service/VoucherService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/service/impl/AdminEnrollmentServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/service/impl/AdminUserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/service/impl/AiContentGenerationServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/service/impl/AuthServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/service/impl/CloudinaryServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/service/impl/ComboServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/service/impl/CourseServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/service/impl/DiscussionServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/service/impl/EmailServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/service/impl/EmailVerificationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/service/impl/EnrollmentServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/service/impl/LearningServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/service/impl/LessonCompletionServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/service/impl/LessonServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/service/impl/LevelMapperService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/service/impl/LevelServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/service/impl/PaymentServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/service/impl/SpeechExerciseServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/service/impl/SpeechPracticeServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/service/impl/SpeechRecognitionServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/service/impl/StatisticsServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/service/impl/TutorServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/service/impl/UserManagementServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/service/impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/service/impl/VnPayServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/service/impl/VoucherServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/java/com/jplearning/service/impl/WebSpeechApiServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/japanese-learning-platform/src/test/java/com/jplearning/JapaneseLearningPlatformApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
-    <execution />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;CarsonDev1&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/CarsonDev1/elearning-backend.git&quot;,
+    &quot;accountId&quot;: &quot;c6d484d8-d7cb-4cf6-bb43-aba9cb1e7480&quot;
+  }
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
-  <component name="ProjectId" id="2zENuTtLf1GlR8dYcshUQaJCycI" />
+  <component name="ProjectId" id="2w7mauWQWQLmlIcVUQ25YI43kXD" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-<<<<<<< HEAD
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "Application.JapaneseLearningPlatformApplication.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "WebServerToolWindowFactoryState": "false",
+    "Spring Boot.JapaneseLearningPlatformApplication.executor": "Run",
     "git-widget-placeholder": "backend",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/SE17_DATN/BE",
+    "last_directory_selection": "T:/Freelance/elearning-backend/japanese-learning-platform/src/test/java",
+    "last_opened_file_path": "D:/DATN",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "terminal",
     "vue.rearranger.settings.migration": "true"
-=======
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;backend&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
->>>>>>> 1ff7174509ba604d5cfbeed571c87ec37958513c
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RunManager" selected="Application.JapaneseLearningPlatformApplication">
+    <configuration name="JapaneseLearningPlatformApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jplearning.JapaneseLearningPlatformApplication" />
+      <module name="japanese-learning-platform" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jplearning.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JapaneseLearningPlatformApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="japanese-learning-platform" />
@@ -75,6 +267,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.JapaneseLearningPlatformApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -87,32 +284,46 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8e759bb8-6855-4157-a68b-73c4daa05b91" name="Changes" comment="" />
-      <created>1751292494905</created>
+      <changelist id="7d02da9b-8f6b-4211-b1ee-0bc69cf5f7ae" name="Changes" comment="" />
+      <created>1745401056196</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1751292494905</updated>
-      <workItem from="1751292495982" duration="186000" />
-<<<<<<< HEAD
-      <workItem from="1751342696950" duration="2334000" />
-=======
-      <workItem from="1751294258139" duration="25000" />
->>>>>>> 1ff7174509ba604d5cfbeed571c87ec37958513c
+      <updated>1745401056196</updated>
+      <workItem from="1745401058391" duration="30393000" />
+      <workItem from="1745545629481" duration="18267000" />
+      <workItem from="1745666755974" duration="6834000" />
+      <workItem from="1745723755016" duration="7480000" />
+      <workItem from="1745769719872" duration="3582000" />
+      <workItem from="1745806010815" duration="4104000" />
+      <workItem from="1746012801236" duration="4314000" />
+      <workItem from="1746068625696" duration="6619000" />
+      <workItem from="1746289134082" duration="3213000" />
+      <workItem from="1746324572434" duration="4397000" />
+      <workItem from="1746408317039" duration="3179000" />
+      <workItem from="1747124351928" duration="24000" />
+      <workItem from="1747124413135" duration="67000" />
+      <workItem from="1747124723406" duration="277000" />
+      <workItem from="1747126544822" duration="2516000" />
+      <workItem from="1747193552362" duration="5535000" />
+      <workItem from="1747276477160" duration="4359000" />
+      <workItem from="1747387363057" duration="4083000" />
+      <workItem from="1747446696409" duration="3683000" />
+      <workItem from="1747464548283" duration="11154000" />
+      <workItem from="1747624318522" duration="12575000" />
+      <workItem from="1747704849086" duration="12609000" />
+      <workItem from="1747790547033" duration="24000" />
+      <workItem from="1754565142192" duration="2165000" />
+      <workItem from="1754721503516" duration="1862000" />
+      <workItem from="1754727026957" duration="22000" />
+      <workItem from="1754744012846" duration="1402000" />
+      <workItem from="1754819216691" duration="4266000" />
+      <workItem from="1754904240465" duration="159000" />
+      <workItem from="1754904405506" duration="74000" />
+      <workItem from="1754904566930" duration="22000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>

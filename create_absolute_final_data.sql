@@ -1,0 +1,1 @@
+Forum and community interaction components containing discussion threads, comment systems, Q&A functionality, and student-tutor communication features.
