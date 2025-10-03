@@ -2,13 +2,9 @@
 import { useAuth } from '@/context/AuthContext';
 import { toast } from '@/hooks/use-toast';
 import { useRouter } from 'next/navigation';
-import React, { useEffect } from 'react';
+import React, { useEffect, useMemo } from 'react';
 import StatisticsService from '@/services/statistics-service';
 import {
-	BarChart,
-	Bar,
-	XAxis,
-	YAxis,
 	CartesianGrid,
 	Tooltip,
 	ResponsiveContainer,
@@ -18,6 +14,8 @@ import {
 	Legend,
 	AreaChart,
 	Area,
+	XAxis,
+	YAxis,
 } from 'recharts';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Loader2Icon } from 'lucide-react';
@@ -39,30 +37,26 @@ const Admin = () => {
 		queryKey: ['dashboardStatistics'],
 		queryFn: () => StatisticsService.getDashboardStatistics(),
 		enabled: isAuthenticated && user?.roles?.[0] === 'ROLE_ADMIN',
-		staleTime: 5 * 60 * 1000, // 5 phút
+		staleTime: 5 * 60 * 1000,
 		refetchOnWindowFocus: false,
 	});
 
 	useEffect(() => {
-		// Nếu xác thực đã hoàn tất (không đang tải)
 		if (!isLoading) {
-			// Nếu người dùng chưa đăng nhập, chuyển hướng đến trang đăng nhập
 			if (!isAuthenticated) {
 				toast({
 					variant: 'destructive',
 					title: 'Truy cập bị từ chối',
 					description: 'Vui lòng đăng nhập để tiếp tục.',
 				});
-				router.push('/login');
-			}
-			// Nếu người dùng đã đăng nhập nhưng không phải admin, chuyển hướng về trang chủ
-			else if (user?.roles?.[0] !== 'ROLE_ADMIN') {
+				router.replace('/login'); // replace để tránh back lại
+			} else if (user?.roles?.[0] !== 'ROLE_ADMIN') {
 				toast({
 					variant: 'destructive',
 					title: 'Quyền truy cập bị từ chối',
 					description: 'Bạn không có quyền truy cập trang này.',
 				});
-				router.push('/');
+				router.replace('/');
 			}
 		}
 	}, [user, isLoading, isAuthenticated, router]);
@@ -79,43 +73,48 @@ const Admin = () => {
 		}
 	}, [error]);
 
-	// Định dạng dữ liệu doanh thu cho biểu đồ
-	const formatRevenueData = () => {
-		if (!statistics?.recentRevenue || statistics.recentRevenue.length === 0) {
-			return [];
-		}
-
-		return statistics.recentRevenue.map((item: any) => ({
-			name: `${getMonthName(item.month)} ${item.year}`,
-			revenue: item.amount,
-			transactions: item.transactionCount,
-		}));
-	};
-
-	// Định dạng dữ liệu đăng ký cho biểu đồ tròn
-	const formatEnrollmentData = () => {
-		if (!statistics?.enrollmentsByLevel) {
-			return [];
-		}
-
-		return Object.entries(statistics.enrollmentsByLevel).map(([level, count], index) => ({
-			name: level,
-			value: count,
-			color: COLORS[index % COLORS.length],
-		}));
-	};
-
 	// Hàm hỗ trợ để lấy tên tháng
 	const getMonthName = (month: number) => {
 		const months = ['Th1', 'Th2', 'Th3', 'Th4', 'Th5', 'Th6', 'Th7', 'Th8', 'Th9', 'Th10', 'Th11', 'Th12'];
 		return months[month - 1];
 	};
 
+	// Định dạng dữ liệu doanh thu cho biểu đồ
+	const revenueData = useMemo(() => {
+		if (!statistics?.recentRevenue?.length) return [];
+		return statistics.recentRevenue.map((item: any) => ({
+			name: `${getMonthName(item.month)} ${item.year}`,
+			revenue: item.amount,
+			transactions: item.transactionCount,
+		}));
+	}, [statistics]);
+
+	// Định dạng dữ liệu đăng ký cho biểu đồ tròn
+	const enrollmentData = useMemo(() => {
+		if (!statistics?.enrollmentsByLevel) return [];
+		return Object.entries(statistics.enrollmentsByLevel).map(([level, count], index) => ({
+			name: level,
+			value: count,
+			color: COLORS[index % COLORS.length],
+		}));
+	}, [statistics]);
+
+	// Loading khi chờ xác thực
 	if (isLoading) {
 		return (
 			<div className='flex items-center justify-center h-screen'>
 				<Loader2Icon className='h-8 w-8 animate-spin text-primary' />
 				<span className='ml-2 text-lg font-medium'>Đang tải bảng điều khiển...</span>
+			</div>
+		);
+	}
+
+	// Loading khi chờ dữ liệu thống kê
+	if (isLoadingStats) {
+		return (
+			<div className='flex items-center justify-center h-screen'>
+				<Loader2Icon className='h-8 w-8 animate-spin text-primary' />
+				<span className='ml-2 text-lg font-medium'>Đang tải dữ liệu thống kê...</span>
 			</div>
 		);
 	}
@@ -158,7 +157,7 @@ const Admin = () => {
 					<CardContent>
 						<div className='h-80'>
 							<ResponsiveContainer width='100%' height='100%'>
-								<AreaChart data={formatRevenueData()}>
+								<AreaChart data={revenueData}>
 									<CartesianGrid strokeDasharray='3 3' stroke='#e2e8f0' />
 									<XAxis dataKey='name' stroke='#64748b' />
 									<YAxis stroke='#64748b' />
@@ -195,20 +194,19 @@ const Admin = () => {
 					</CardHeader>
 					<CardContent>
 						<div className='h-72 flex items-center justify-center'>
-							{formatEnrollmentData().length > 0 ? (
+							{enrollmentData.length > 0 ? (
 								<ResponsiveContainer width='100%' height='100%'>
 									<PieChart>
 										<Pie
-											data={formatEnrollmentData()}
+											data={enrollmentData}
 											cx='50%'
 											cy='50%'
 											labelLine={false}
 											outerRadius={80}
-											fill='#8884d8'
 											dataKey='value'
 											label={({ name, percent }) => `${name}: ${(percent * 100).toFixed(0)}%`}
 										>
-											{formatEnrollmentData().map((entry, index) => (
+											{enrollmentData.map((entry, index) => (
 												<Cell key={`cell-${index}`} fill={entry.color} />
 											))}
 										</Pie>
@@ -241,7 +239,7 @@ const Admin = () => {
 					<CardContent>
 						<div className='flex flex-col items-center justify-center h-72'>
 							<div className='text-6xl font-bold text-[#58cc02] mb-4'>
-								${statistics?.totalRevenue.toLocaleString() || '0'}
+								${statistics?.totalRevenue ? statistics.totalRevenue.toLocaleString() : '0'}
 							</div>
 							<p className='text-xl text-gray-600 mb-6'>Tổng Doanh Thu</p>
 
@@ -271,7 +269,7 @@ const StatCard = ({ title, value, icon, color }: any) => (
 			<div className='flex items-center'>
 				<div
 					className='h-12 w-12 rounded-lg flex items-center justify-center text-2xl'
-					style={{ backgroundColor: `${color}20` }}
+					style={{ backgroundColor: `${color}20` }} // có thể đổi sang Tailwind bg-opacity nếu muốn
 				>
 					{icon}
 				</div>
